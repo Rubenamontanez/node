@@ -1,0 +1,15 @@
+const person = {
+    name: 'Ruben',
+    age: 29,
+    greet() {
+        console.log('hi, I am ' +this.name);
+    }
+};
+
+const hobbies = ['sports', 'cars', 'kids'];
+// for (let hobby of hobbies){
+//     console.log(hobby);
+// }
+console.log(hobbies.map(hobby => 'Hobby:' + hobby));
+console.log(hobbies);
+
